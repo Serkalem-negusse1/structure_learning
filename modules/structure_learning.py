@@ -4,7 +4,6 @@ Implements structure learning methods: PC algorithm, score-based search.
 """ 
 import pandas as pd
 from pgmpy.estimators import PC, HillClimbSearch, BicScore, BDeuScore
-from pgmpy.estimators import PC, HillClimbSearch, BDeuScore, K2Score
 
 
 def learn_structure_pc(data: pd.DataFrame):
