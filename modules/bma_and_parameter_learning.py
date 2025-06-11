@@ -21,7 +21,10 @@ def sample_structures(data, num_samples=20, random_state=42):
 
     for i in range(num_samples):
         seed = random.randint(0, 10000)
-        hc = HillClimbSearch(data, scoring_method=BicScore(data))
+        #hc = HillClimbSearch(data, scoring_method=BicScore(data))
+        hc = HillClimbSearch(data)
+        model = hc.estimate(scoring_method=BicScore(data))
+
         model = hc.estimate()
         all_models.append(model)
         for edge in model.edges():
