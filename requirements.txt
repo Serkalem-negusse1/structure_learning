@@ -1,4 +1,4 @@
-pgmpy
+pgmpy==0.1.16
 matplotlib
 networkx  
 pandas 

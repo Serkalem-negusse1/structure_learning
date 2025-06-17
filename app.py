@@ -15,11 +15,11 @@ from modules.bma_and_parameter_learning import sample_structures
 
 st.set_page_config(layout="wide")
 st.title(" Bayesian Network Structure Learning Dashboard")
-st.markdown("Based on Chapter 18 from *Probabilistic Graphical Models* by Koller & Friedman (2009)\n \n"
+st.markdown("Based on Chapter 18 from **Probabilistic Graphical Models** by Koller & Friedman (2009)\n \n"
             "This dashboard allows you to learn the structure of a Bayesian Network from a dataset, visualize it, "
-            "and perform inference using the learned model. You can also sample structures for Bayesian Model Averaging (BMA).\n "
-            "Developed by **Serkalem Negusse**, PhD Candidate in Artificial Intelligence Addis Ababa Science and Technology University (AASTU)and EAII."
-            "This project is open-source and available on [GitHub]()")
+            "and perform inference using the learned model. You can also sample structures for Bayesian Model Averaging (BMA).\n\n "
+            "Developed by **Serkalem Negusse**, PhD Candidate in Artificial Intelligence @ AASTU and EAII.\n\n"
+            "This project is open-source and available on [GitHub](https://github.com/Serkalem-negusse1/structure_learning)")
 
 # Sidebar steps
 st.sidebar.header("Workflow")
