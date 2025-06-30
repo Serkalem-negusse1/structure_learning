@@ -1,9 +1,8 @@
 pgmpy==0.1.16
-matplotlib==3.8.3
-networkx==3.2.1
-pandas==2.2.2
-scikit-learn==1.4.1.post1
-streamlit==1.36.0
-
-numpy==1.23.5
-scipy==1.9.3
+matplotlib
+networkx  
+pandas 
+scikit-learn
+numpy
+scipy
+streamlit
